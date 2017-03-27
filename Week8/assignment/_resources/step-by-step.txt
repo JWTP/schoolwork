@@ -1,0 +1,26 @@
+Maak een php pagina die op basis van de gegevens
+uit de gerechten database 5 gerelateerde
+gerechtenplaatjes op flickr vindt
+
+1. Database staat opgezet & ingevuld
+2. assigment-start code staat klaar
+    database verbinding + flickr connectie
+3. settings invullen met eigen gegevens
+    settings.php invulen lege strings
+4. Inladen recepten uit de database
+    mysql query met SELECT
+5. Foto's inladen per recept (bv op tag of naam)
+    data moet in een array komen
+    loop nodig om alle recepten langs te gaan
+    in loop 5 foto's inladen vanuit flickr
+    flickr data koppelen aan data uit DB
+
+Het eindresultaat moet een JSON object terug
+geven waarin alle gerechten uit jouw database
+gecombineerd zijn met de 5 plaatjes die erbij
+horen vanaf flickr
+
+6. Omzetten van samengevoegde data naar JSON
+    Header zetten met content-type
+    json_encode aanroepen
+7. Controleren van JSON in browser

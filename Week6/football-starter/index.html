@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yellow and red cards Eredevisie Nethderlands</title>
+
+    <!-- Bootstrap + optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <!-- own stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <header>
+                <h1>Eredivisie</h1>
+
+                <h2 class="smaller">Yellow and red cards</h2>
+            </header>
+        </div>
+    </div>
+    <div class="row">
+        <form id="football-search" class="form-horizontal">
+            <div class="form-group">
+                <div class="col-md-5 col-md-offset-3">
+                    <input class="form-control" type="text" id="club-name" placeholder="searchclub"/>
+                </div>
+                <div class="col-md-1">
+                    <input class="btn btn-success" type="submit" id="sbm-button" value="GO"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Surname</th>
+                    <th>Name</th>
+                    <th>Yellow</th>
+                    <th>Red</th>
+                </tr>
+                </thead>
+                <tfoot>
+                <tr>
+                    <td colspan="4">Yellow and red cards in the Dutch Competition</td>
+                </tr>
+                </tfoot>
+                <tbody id="players">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reqwest/2.0.5/reqwest.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

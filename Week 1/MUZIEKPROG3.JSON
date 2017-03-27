@@ -1,0 +1,24 @@
+music = [
+    {
+        "artist": "Lukas Graham    ",
+        "song"  : "You're Not There"
+    }
+    {
+        "artist": "The Vamps",
+        "song"  : "All night"
+    }
+    {
+        "artist": "Sean Paul ",
+        "song"  : "No Lie    "
+    }
+    {
+        "artist": "Ricky Martin ",
+        "song"  : "Vente Pa'Ca  "
+    }
+    {
+        "artist": "Zara Larsson",
+        "song"  : "I Would Like"
+    }
+]
+
+
